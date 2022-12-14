@@ -1,0 +1,28 @@
+// main {
+//   margin-top: 1rem;
+//   border: solid 0.5px black;
+//   border-width: 100%;
+// }
+
+.aside {
+  border: solid 0.5px black;
+  display: inline-block;
+  width: 29%;
+}
+
+.google-map {
+  display: inline-block;
+  width: 69%;
+  border: solid 0.5px black;
+}
+
+.clear {
+  margin-top: 1rem;
+  clear: both;
+}
+
+.phone,
+.email,
+.address {
+  border: solid 0.5px black;
+}

@@ -1,0 +1,36 @@
+<h3>Products</h3>
+<h4>Shampoo</h4>
+<div id="shampoo" *ngFor="let shamp of shampoo">
+  <p-card>
+    <ng-template pTemplate="header"> {{ shamp.name }} </ng-template>
+    <img src="{{ shamp.image }}" id="img" />
+  </p-card>
+</div>
+<h4>Hair Oil</h4>
+<div id="hairOil" *ngFor="let hair of hairOil">
+  <p-card>
+    <ng-template pTemplate="header"> {{ hair.name }} </ng-template>
+    <img src="{{ hair.image }}" />
+  </p-card>
+</div>
+<h4>Hair Color</h4>
+<div id="hairColor" *ngFor="let hair of hairColor">
+  <p-card>
+    <ng-template pTemplate="header"> {{ hair.name }} </ng-template>
+    <img src="{{ hair.image }}" />
+  </p-card>
+</div>
+<h4>Vaseline</h4>
+<div id="vaseline" *ngFor="let vaseline of vaseline">
+  <p-card>
+    <ng-template pTemplate="header"> {{ vaseline.name }} </ng-template>
+    <img src="{{ vaseline.image }}" />
+  </p-card>
+</div>
+<h4>Talcum Powder</h4>
+<div id="powder" *ngFor="let powder of powder">
+  <p-card>
+    <ng-template pTemplate="header"> {{ powder.name }} </ng-template>
+    <img src="{{ powder.image }}" />
+  </p-card>
+</div>
